@@ -1,0 +1,46 @@
+##Initial Project Setup
+Create a dedicated folder for your project and organize it with the following structure to ensure it is clean and professional:
+
+FaceAuthSystem/ (Root Directory)
+
+dataset/: This folder will store the images of registered users.
+
+main.py: Your main application script that runs the camera loop.
+
+face_logic.py: The module containing face recognition and authentication logic.
+
+attendance.csv: A file automatically generated to log "Punch-in" and "Punch-out" times.
+
+requirements.txt: A list of all Python libraries needed for the project.
+
+## Prepare the Environment
+Before running your code, install the required dependencies using the requirements.txt file you created.
+
+Install Libraries: Open your terminal and run: pip install -r requirements.txt
+
+Verify Hardware: Ensure your webcam is connected and not being used by other applications (like Zoom or Teams).
+
+##Register Users (Enrollment)
+To recognize a face, the system needs a reference image.
+
+Take a clear photo of yourself (and any others you want to test).
+
+Save the image in the dataset/ folder.
+
+Important: Rename the image file to the person's name (e.g., Abuzar_Manyar.jpg). The code uses the filename to identify the person.
+
+##Running the Demo
+Once the setup is complete, you can start the system.
+
+Execution: Run the command python main.py in your terminal.
+
+Recognition: Look at the camera. A green bounding box should appear around your face with your name.
+
+Action: Press the 'p' key to log your attendance. The terminal should confirm the action, and attendance.csv will be updated.
+
+Exit: Press the 'q' key on your keyboard while focusing on the camera window to stop the program.
+
+but if it doesnt work smoothly after pressing q key you can also click on terminal and then press 'Ctrl' + 'c'
+
+
+By Manyar Abuzar

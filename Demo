@@ -3,7 +3,10 @@ Create a dedicated folder for your project and organize it with the following st
 
 FaceAuthSystem/ (Root Directory)
 
-dataset/: This folder will store the images of registered users.
+##dataset/Your_Image.jpg 
+above is the basic requirement for the result of the model use your photo and locate it into new folder named dataset and uplaod input face of your in it 
+
+This folder will store the images of registered users.
 
 main.py: Your main application script that runs the camera loop.
 
@@ -44,3 +47,4 @@ but if it doesnt work smoothly after pressing q key you can also click on termin
 
 
 By Manyar Abuzar
+
